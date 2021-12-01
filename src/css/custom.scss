@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+
+:root {
+  --black: #1c1917;
+  --white: #fafaf9;
+  --grey-light: #e7e5e4;
+  --grey-medium: #57534e;
+  --red-1: #ef4444;
+  --red-2: #dc2626;
+  --red-3: #b91c1c;
+
+  --ifm-color-primary: #ef4444;
+  --ifm-color-primary-dark: #ed2828;
+  --ifm-color-primary-darker: #eb1a1a;
+  --ifm-color-primary-darkest: #c61111;
+  --ifm-color-primary-light: #f16060;
+  --ifm-color-primary-lighter: #f36e6e;
+  --ifm-color-primary-lightest: #f47d7d;
+
+  --ifm-footer-link-color: var(--white);
+  --ifm-navbar-background-color: var(--black);
+  --ifm-footer-background-color: var(--red-1);
+  --ifm-code-font-size: 95%;
+
+  --ifm-font-family-base: Grenze;
+}
+
+html,
+body {
+  font-family: Grenze;
+  color: var(--white);
+  background-color: var(--black);
+  font-size: 24px;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
