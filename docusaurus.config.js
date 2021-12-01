@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const config = {
   title: 'MolochDAO',
   tagline: 'The Original Grant Giving DAO',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://moloch-website.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
