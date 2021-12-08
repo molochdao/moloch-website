@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import styles from './index.module.scss'
 import Section from '../components/Section'
+import Blog from '../components/Blog'
 
 const content = {
   page_title: 'The Original Grant Giving DAO',
@@ -47,6 +48,10 @@ export default function Home() {
         <div className="container padding-vert--xl">
           <h1 className="row">{content.page_title}</h1>
         </div>
+        <Blog account="molochdao" />
+        <Blog account="ethereum-cat-herders" />
+        <Blog account="@traviswyche" />
+
         {content.sections.map((props, idx) => (
           <Section key={idx} {...props} />
         ))}
