@@ -1,5 +1,78 @@
 .homepage {
-  section:nth-of-type(odd) {
-    background-color: var(--grey-medium);
+  :global {
+    .hack {
+    }
+    .button {
+      font-size: 36px;
+    }
+    .intro {
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 36vw;
+        h1 {
+          margin-bottom: 100px;
+        }
+        .text {
+          margin-bottom: 100px;
+          max-width: 950px;
+        }
+        .ctas {
+          max-width: 550px;
+          margin: 0 auto;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+    .manifesto {
+      .img {
+        img {
+          max-height: 80vh;
+        }
+      }
+    }
+    .join,
+    .funding {
+      .text {
+        max-width: 954px;
+        margin: 50px auto;
+      }
+      .ctas {
+        max-width: 667px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        .button {
+        }
+      }
+    }
+    .join {
+      .ctas .button {
+        font-size: 48px;
+
+        color: var(--white);
+      }
+    }
+    .newsletter {
+      .text {
+        margin: 50px 0;
+      }
+      form {
+        display: flex;
+        input {
+          min-width: 450px;
+          border: none;
+          margin-right: 50px;
+        }
+        button {
+          color: var(--white);
+        }
+      }
+    }
   }
 }

@@ -1,28 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Grenze:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Grenze:ital,wght@0,400;0,900;1,400;1,900&display=swap");
 
 :root {
   --black: #1c1917;
   --white: #fafaf9;
   --grey-light: #e7e5e4;
   --grey-medium: #57534e;
-  --red-1: #ef4444;
+  --red-1: #9f1a1a;
   --red-2: #dc2626;
   --red-3: #b91c1c;
+  --red-bg: #631717;
 
-  --ifm-color-primary: #ef4444;
-  --ifm-color-primary-dark: #ed2828;
-  --ifm-color-primary-darker: #eb1a1a;
-  --ifm-color-primary-darkest: #c61111;
-  --ifm-color-primary-light: #f16060;
-  --ifm-color-primary-lighter: #f36e6e;
-  --ifm-color-primary-lightest: #f47d7d;
+  --ifm-color-primary: #9f1a1a;
+  --ifm-color-primary-dark: #8f1717;
+  --ifm-color-primary-darker: #871616;
+  --ifm-color-primary-darkest: #6f1212;
+  --ifm-color-primary-light: #af1d1d;
+  --ifm-color-primary-lighter: #b71e1e;
+  --ifm-color-primary-lightest: #cf2222;
 
   --ifm-footer-link-color: var(--white);
   --ifm-navbar-background-color: var(--black);
-  --ifm-footer-background-color: var(--red-1);
+  --ifm-footer-background-color: var(--black);
   --ifm-code-font-size: 95%;
 
   --ifm-font-family-base: Grenze;
+  --ifm-h1-font-size: 112px;
+  --ifm-button-border-radius: 4px;
 }
 
 html,
@@ -30,6 +33,7 @@ body {
   font-family: Grenze;
   color: var(--white);
   background-color: var(--black);
+  background-image: url("/img/css/bg-pattern.png");
   font-size: 24px;
 }
 
@@ -40,6 +44,95 @@ body {
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
+html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+.centered {
+  text-align: center;
+}
+
+.red {
+  color: var(--red-1);
+}
+
+.white {
+  color: var(--white);
+}
+
+.black {
+  color: var(--black);
+}
+
+.bg-red {
+  background-color: var(--red-bg);
+}
+.circle-pattern {
+  background-image: url("/img/css/circle-pattern.png");
+}
+.rip-top {
+  height: 27vw;
+  background-image: url("/img/css/rip-up.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.rip-bottom {
+  height: 37vw;
+  background-image: url("/img/css/rip-down.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.angle-top-down {
+  height: 15vw;
+  background-image: url("/img/css/angle-down.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.blood-bottom {
+  height: 33vw;
+  background-image: url("/img/css/blood.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.hr {
+  height: 60px;
+  max-width: 960px;
+  margin: 50px auto;
+  background-image: url("/img/css/rule.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+h1 {
+  font-size: 112px;
+  line-height: 92%;
+}
+
+h2 {
+  font-size: 96px;
+  line-height: 92%;
+}
+
+p {
+  font-size: 24px;
+  line-height: 1.5em;
+}
+
+button {
+  font-family: Grenze;
+}
+
+input {
+  background: #e7e5e4;
+  box-shadow: inset 4px 4px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+// .ctas {
+//   display: flex;
+//   justify-content: space-around;
+// }
