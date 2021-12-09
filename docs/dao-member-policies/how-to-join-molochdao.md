@@ -7,10 +7,10 @@ You can join MolochDAO through several means:
 2. Share your proposal here & request sponsorship:\
    [Visit the MolochDAO Discourse forum](https://forum.daohaus.club/c/moloch-rises)
 3. Get DAO membership via a grant from MolochDAO:\
-   [How to submit a funding proposal](../grant-pipeline-procedures/how-and-when-to-put-a-proposal-on-chain/application.md)
-4.  Get involved and do work for the DAO to earn your way in:
+   [How to submit a funding proposal](/docs/grant-pipeline-procedures/how-and-when-to-put-a-proposal-on-chain/application.md)
+4. Get involved and do work for the DAO to earn your way in:
 
-    [Contact a member of the ReallyBoringGuild to discuss what you can offer](../reallyboringguild-member-policies/contributing-to-rbg/)
+   [Contact a member of the ReallyBoringGuild to discuss what you can offer](/docs/reallyboringguild-member-policies/contributing-to-rbg/)
 
 **How do you work your way in?**
 
@@ -20,10 +20,8 @@ If you want to go this route DM @traviswyche or @annwillmott on telegram.
 
 **What do you recommend to get started?**
 
-* Read through our mission and values, vision of Web 3, underlying beliefs
-* Join our Discord chat and familiarize yourself with our core values
-* Explain how you want to get involved!
-
-
+- Read through our mission and values, vision of Web 3, underlying beliefs
+- Join our Discord chat and familiarize yourself with our core values
+- Explain how you want to get involved!
 
 After becoming a member by one of these three methods, one gains permission to submit proposals to fund projects or create guilds, participate in soft polls, and cast on-chain votes.

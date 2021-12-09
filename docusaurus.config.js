@@ -10,7 +10,7 @@ const config = {
   tagline: "The Original Grant Giving DAO",
   url: "https://moloch-website.netlify.app",
   baseUrl: "/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/Inverted_pentacle_bold.svg",
   organizationName: "MolochDAO", // Usually your GitHub org/user name.

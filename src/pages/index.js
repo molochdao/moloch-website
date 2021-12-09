@@ -221,7 +221,7 @@ export default function Home() {
         <section className="blog">
           <div className="angle-top-down"></div>
           <div className="wrapper bg-red">
-            <div className="container">
+            <div className="container padding-top--xl padding-bottom-xl">
               <div className="row">
                 <div className="col">
                   <h2>Satisfy Your Thirst For More</h2>
@@ -233,9 +233,7 @@ export default function Home() {
                   <div className="description">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Voluptas corrupti aliquam ipsum officia tenetur, magnam
-                    nihil velit! Voluptates corrupti iste asperiores dolor
-                    mollitia possimus recusandae fugiat, dignissimos ullam
-                    doloremque adipisci.
+                    nihil velit!
                   </div>
                   <div className="post">
                     <Blog account="molochdao" limit={1} />
@@ -250,9 +248,7 @@ export default function Home() {
                   <div className="description">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Voluptas corrupti aliquam ipsum officia tenetur, magnam
-                    nihil velit! Voluptates corrupti iste asperiores dolor
-                    mollitia possimus recusandae fugiat, dignissimos ullam
-                    doloremque adipisci.
+                    nihil velit!
                   </div>
                   <div className="post">
                     <Blog account="ethereum-cat-herders" limit={1} />
@@ -267,9 +263,7 @@ export default function Home() {
                   <div className="description">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Voluptas corrupti aliquam ipsum officia tenetur, magnam
-                    nihil velit! Voluptates corrupti iste asperiores dolor
-                    mollitia possimus recusandae fugiat, dignissimos ullam
-                    doloremque adipisci.
+                    nihil velit!
                   </div>
                   <div className="post">
                     <Blog account="@traviswyche" limit={1} />
