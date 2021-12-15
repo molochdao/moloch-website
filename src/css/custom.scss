@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Grenze:ital,wght@0,400;0,900;1,400;1,900&display=swap");
+@import "./breakpoints.scss";
 
 :root {
   --black: #1c1917;
@@ -35,6 +36,9 @@ body {
   background-color: var(--black);
   background-image: url("/img/css/bg-pattern.png");
   font-size: 24px;
+  @include breakpoint(small) {
+    font-size: 16px;
+  }
 }
 
 .docusaurus-highlight-code-line {
@@ -105,21 +109,34 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-image: url("/img/css/rule.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
+  @include breakpoint(small) {
+    max-width: 80%;
+    margin: 20px auto;
+  }
 }
 
 h1 {
   font-size: 112px;
   line-height: 92%;
+  @include breakpoint(small) {
+    font-size: 56px;
+  }
 }
 
 h2 {
   font-size: 96px;
   line-height: 92%;
+  @include breakpoint(small) {
+    font-size: 48px;
+  }
 }
 
 p {
   font-size: 24px;
   line-height: 1.5em;
+  @include breakpoint(small) {
+    font-size: 18px;
+  }
 }
 
 button {

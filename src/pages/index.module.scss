@@ -1,9 +1,25 @@
+@import "../css/breakpoints.scss";
+
 .homepage {
   :global {
     .hack {
     }
+    .ctas {
+      @include breakpoint(small) {
+        display: flex;
+        flex-direction: column;
+        .button {
+          margin-bottom: 20px;
+        }
+      }
+    }
     .button {
       font-size: 36px;
+      @include breakpoint(small) {
+        font-size: 18px;
+        display: block;
+        width: 100%;
+      }
     }
     .intro {
       .container {
@@ -15,10 +31,16 @@
         min-height: 36vw;
         h1 {
           margin-bottom: 100px;
+          @include breakpoint(small) {
+            margin-bottom: 50px;
+          }
         }
         .text {
           margin-bottom: 100px;
           max-width: 950px;
+          @include breakpoint(small) {
+            margin-bottom: 50px;
+          }
         }
         .ctas {
           max-width: 550px;
@@ -33,6 +55,10 @@
         img {
           max-height: 80vh;
         }
+        @include breakpoint(small) {
+          margin-top: 50px;
+          text-align: center;
+        }
       }
     }
     .join,
@@ -46,6 +72,8 @@
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
+        @include breakpoint(small) {
+        }
 
         .button {
         }
@@ -54,8 +82,10 @@
     .join {
       .ctas .button {
         font-size: 48px;
-
         color: var(--white);
+        @include breakpoint(small) {
+          font-size: 24px;
+        }
       }
     }
     .blog {
@@ -95,14 +125,47 @@
         margin: 50px 0;
       }
       form {
-        display: flex;
-        input {
-          min-width: 450px;
-          border: none;
-          margin-right: 50px;
+        //display: flex;
+        width: 70%;
+        @include breakpoint(small) {
+          width: 100%;
         }
-        button {
-          color: var(--white);
+      }
+    }
+    .mailchimp-form {
+      input {
+        //min-width: 450px;
+        border: none;
+        // margin-right: 50px;
+      }
+      input[type="submit"],
+      button {
+        background-color: var(--red-1);
+        color: var(--white);
+        font-family: Grenze;
+        font-size: 36px;
+        box-shadow: none;
+        margin-top: 50px;
+      }
+      input {
+        background: #e7e5e4;
+        box-shadow: inset 4px 4px 12px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        font-family: Grenze;
+        font-size: 36px;
+        width: 100%;
+        &.birthday {
+          width: 80px;
+        }
+      }
+      .indicates-required {
+        font-size: 0.8em;
+        opacity: 0.8;
+      }
+      .mc-field-group {
+        margin-bottom: 20px;
+        label {
+          display: block;
         }
       }
     }
