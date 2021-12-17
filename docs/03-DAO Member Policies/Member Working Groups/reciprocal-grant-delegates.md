@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Reciprocal Grant Delegates
 
 Some communities distributing reciprocal grants to MolochDAO may request our participation in their dapp/protocol’s governance. In such cases, the DAO must elect a delegate to serve as the MolochDAO representative in their governance proceedings, to maintain relations between the two parties, and to vote on behalf of the interests of MolochDAO. A delegate may be an individual, a self-organized member committee, or a guild. If a group shares in the responsibilities of community relations they must still designate an individual to be held responsible for conveying essential information back to the DAO during monthly updates.

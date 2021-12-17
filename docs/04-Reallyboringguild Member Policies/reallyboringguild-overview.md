@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # ReallyBoringGuild Overview
 
 MolochDAO currently requires a lot of organizational labor, custodial care, and administrative housekeeping to keep the group running smoothly. The ReallyBoring operational guild handles the day-to-day procedures that include (but are not limited to): marketing, website maintenance, public relations, social media, outreach, branding, graphic design, planning member meetings, copyediting and conceptually clarifying DAO agendas, and even maintaining the handbook you are now reading.
@@ -8,9 +12,9 @@ _The RBG is really not so boring_, but consists of a dynamically changing group 
 
 RBG encourages strategic grant making within the DAO and secures funding for the necessary labor required for a high-functioning community to power the engine of collaboration, funding, and knowledge sharing.
 
-### 👹_The DAO continuing to fund ReallyBoringGuild is a signal of approval that the work the guild is doing is adding value. ReallyBoringGuild continuing to apply to the DAO for funding is a signal that the DAO is adding value to the members of the ReallyBoringGuild. _👹
+### 👹*The DAO continuing to fund ReallyBoringGuild is a signal of approval that the work the guild is doing is adding value. ReallyBoringGuild continuing to apply to the DAO for funding is a signal that the DAO is adding value to the members of the ReallyBoringGuild. *👹
 
-Upon being awarded a MolochDAO grant and receiving the corresponding shares, the guild retained autonomy over their award. The guild determines the quantity - if any - of shares that will be burned to provide WETH liquidity for their operations. The guild  determines their own governance protocols, budget distributions, and delegates to participate in soft polling and on-chain voting scenarios.&#x20;
+Upon being awarded a MolochDAO grant and receiving the corresponding shares, the guild retained autonomy over their award. The guild determines the quantity - if any - of shares that will be burned to provide WETH liquidity for their operations. The guild determines their own governance protocols, budget distributions, and delegates to participate in soft polling and on-chain voting scenarios.&#x20;
 
 RBG attends to activities that help improve MolochDAO as a whole. This includes (but is not limited to) such activities as growing the MolochDAO ecosystem by iterating on strategy, organizing member meetings and polls, budgeting, community management, etc.&#x20;
 

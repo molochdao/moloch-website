@@ -51,10 +51,16 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "handbook",
+            docId: "Introduction/wtf-is-moloch",
             position: "left",
             label: "Handbook",
           },
+          // {
+          //   to: "/docs/introduction/wtf-is-moloch",
+          //   label: "Handbook",
+          //   position: "left",
+          // },
+
           { to: "/project-grants", label: "Project Grants", position: "left" },
           {
             to: "/research-grants",
@@ -65,11 +71,6 @@ const config = {
           {
             href: "#",
             label: "2021 Annual Report",
-            position: "right",
-          },
-          {
-            href: "#",
-            label: "Blog",
             position: "right",
           },
         ],

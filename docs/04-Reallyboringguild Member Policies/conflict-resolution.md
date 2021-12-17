@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Conflict Resolution
 
 In the untimely event that a DAO member, guild member, or other contributing entity raises a grievance, that party has the right to enlist an impartial moderator to volunteer in overseeing the tension. The moderator may be a MolochDAO member or composed of a group of non-members fashioned as an impartial review council, subject to the approval of at least one DAO member not directly involved in the conflict.

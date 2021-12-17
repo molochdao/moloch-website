@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # How to Join MolochDAO
 
 You can join MolochDAO through several means:

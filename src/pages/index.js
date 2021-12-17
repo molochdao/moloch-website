@@ -6,6 +6,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.scss";
 import Section from "../components/Section";
 import Blog from "../components/Blog";
+import Head from "@docusaurus/Head";
 
 const content = {
   page_title: "The Original Grant Giving DAO",
@@ -83,7 +84,6 @@ const mailchimp_form = `
 
 <!--End mc_embed_signup-->
 
-
 `;
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
@@ -92,6 +92,21 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
+      <Head>
+        <title>MolochDAO: The Original Grant Giving DAO</title>
+        <meta
+          property="og:title"
+          content="MolochDAO: The Original Grant Giving DAO"
+        />
+        <meta
+          name="description"
+          content="MolochDAO is a grant giving Decentralized Autonomous Organization, deployed on Ethereum mainnet, to fund essential digital public goods."
+        />
+        <meta
+          property="og:description"
+          content="MolochDAO is a grant giving Decentralized Autonomous Organization, deployed on Ethereum mainnet, to fund essential digital public goods."
+        />
+      </Head>
       <div className={styles.homepage}>
         <section className="intro">
           <div className="container padding-top--lg padding-bottom--lg">
@@ -110,10 +125,17 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="ctas">
-                  <a className="button button--primary" href="">
+                  <a
+                    className="button button--primary"
+                    href="https://app.daohaus.club/dao/0x1/0x519f9662798c2e07fbd5b30c1445602320c5cf5b"
+                    target="_blank"
+                  >
                     Launch App
                   </a>
-                  <a className="button button--secondary" href="">
+                  <a
+                    className="button button--secondary"
+                    href="/docs/Introduction/wtf-is-moloch"
+                  >
                     Learn More
                   </a>
                 </div>
@@ -143,7 +165,10 @@ export default function Home() {
                     </p>
                   </div>
                   <div className="ctas">
-                    <a className="button button--secondary" href="">
+                    <a
+                      className="button button--secondary"
+                      href="/docs/Vision%20&%20Values/manifesto"
+                    >
                       Read Manifesto
                     </a>
                   </div>
@@ -169,10 +194,18 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="ctas">
-                  <a className="button button--primary" href="">
+                  <a
+                    className="button button--primary"
+                    href="https://discord.com/invite/PxrnEUsbef"
+                    target="_blank"
+                  >
                     Join Discord
                   </a>
-                  <a className="button button--primary" href="">
+                  <a
+                    className="button button--primary"
+                    href="https://twitter.com/molochdao"
+                    target="_blank"
+                  >
                     Join Twitter
                   </a>
                 </div>
@@ -199,7 +232,10 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="ctas">
-                  <a className="button button--secondary" href="">
+                  <a
+                    className="button button--secondary"
+                    href="/docs/Vision%20&%20Values/manifesto"
+                  >
                     Read Manifesto
                   </a>
                 </div>
@@ -227,10 +263,16 @@ export default function Home() {
                     </p>
                   </div>
                   <div className="ctas">
-                    <a className="button button--secondary" href="">
+                    <a
+                      className="button button--secondary"
+                      href="/project-grants"
+                    >
                       Project Grants
                     </a>
-                    <a className="button button--secondary" href="">
+                    <a
+                      className="button button--secondary"
+                      href="/research-grants"
+                    >
                       Research Grants
                     </a>
                   </div>
@@ -252,7 +294,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="ctas">
-                  <a className="button button--primary" href="">
+                  <a className="button button--primary" href="#">
                     View Annual Report
                   </a>
                 </div>
@@ -276,45 +318,52 @@ export default function Home() {
                 <div className="col col--4">
                   <h3>MolochDAO Blog</h3>
                   <div className="description">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Voluptas corrupti aliquam ipsum officia tenetur, magnam
-                    nihil velit!
+                    From the summoning of the DAO, the first of its kind,
+                    through cycles of grants, to the slaying of Moloch. Let's
+                    get to work.
                   </div>
                   <div className="post">
                     <Blog account="molochdao" limit={1} />
                   </div>
                   <div className="read-all">
-                    <a href="">Read All</a>
+                    <a href="https://molochdao.medium.com/" target="_blank">
+                      Read All
+                    </a>
                   </div>
                 </div>
 
                 <div className="col col--4">
                   <h3>Ethereum Cat Herders</h3>
                   <div className="description">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Voluptas corrupti aliquam ipsum officia tenetur, magnam
-                    nihil velit!
+                    Decentralized project management contributions to the growth
+                    and development of the Ethereum ecosystem.
                   </div>
                   <div className="post">
                     <Blog account="ethereum-cat-herders" limit={1} />
                   </div>
                   <div className="read-all">
-                    <a href="">Read All</a>
+                    <a
+                      href="https://medium.com/ethereum-cat-herders"
+                      target="_blank"
+                    >
+                      Read All
+                    </a>
                   </div>
                 </div>
 
                 <div className="col col--4">
                   <h3>Death Guild</h3>
                   <div className="description">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Voluptas corrupti aliquam ipsum officia tenetur, magnam
-                    nihil velit!
+                    Questioning the models we take for granted regarding
+                    governance, treasury management and privacy.
                   </div>
                   <div className="post">
                     <Blog account="@traviswyche" limit={1} />
                   </div>
                   <div className="read-all">
-                    <a href="">Read All</a>
+                    <a href="https://medium.com/@traviswyche" target="_blank">
+                      Read All
+                    </a>
                   </div>
                 </div>
               </div>
@@ -341,17 +390,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        {/* <div className="container padding-vert--xl">
-          <h1 className="row">{content.page_title}</h1>
-        </div>
-        <Blog account="molochdao" limit={1} />
-        <Blog account="ethereum-cat-herders" limit={1} />
-        <Blog account="@traviswyche" limit={1} />
-
-        {content.sections.map((props, idx) => (
-          <Section key={idx} {...props} />
-        ))} */}
       </div>
     </Layout>
   );

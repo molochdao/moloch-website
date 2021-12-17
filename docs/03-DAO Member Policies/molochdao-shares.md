@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # MolochDAO Shares
 
 All Shares are non-transferable and unique to the DAO.

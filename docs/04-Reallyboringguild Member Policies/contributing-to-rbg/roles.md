@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Roles
 
 We are always looking for quality contributors that can help us improve our operations. We are particularly interested in hearing from individuals with the following skill sets:

@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # DAO Assets
 
 The assets of MolochDAO are overseen by RBG. They may enlist outside help on administering tasks on an ad hoc, as-needed basis. If multiple contributors require access to an asset, they must coordinate their activities amongst themselves. If any entity identifies a conflict of interest regarding access to an asset, they must follow [standard conflict resolution procedures.](conflict-resolution.md)
@@ -28,6 +32,6 @@ In the untimely event that any member disagrees with the use of creative assets 
 1. The member may petition to join ReallyBoringGuild to become involved in creating or managing the assets.
 2. The member may reach out to RBG project to express their discontent.&#x20;
 
-RBG retains autonomy over their creations. **As with all  procedures in MolochDAO, members provide value to projects through their approval of funding while individual projects and guilds provide value by continuing to apply for funding.** If an individual member or committee of members decides that they no longer value the creative contributions of RBG they can make a movement to deny funding to the project during the next quarterly application review.
+RBG retains autonomy over their creations. **As with all procedures in MolochDAO, members provide value to projects through their approval of funding while individual projects and guilds provide value by continuing to apply for funding.** If an individual member or committee of members decides that they no longer value the creative contributions of RBG they can make a movement to deny funding to the project during the next quarterly application review.
 
 If RBG wants to be successful and have their funding re-approved on the next submission cycle they will be expected to conduct research (via member interviews, ecosystem analysis, or whatever means they deem appropriate) to gauge member expectations while working to deliver a product that will satisfy the goals outlined in their proposal.
