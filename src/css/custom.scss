@@ -149,6 +149,42 @@ input {
   border-radius: 4px;
 }
 
+@include breakpoint(mediumup) {
+  .nav-icon-discord,
+  .nav-icon-twitter {
+    width: 40px;
+    height: 36px;
+    overflow: hidden;
+    text-indent: -1000000px;
+    white-space: nowrap;
+    color: transparent;
+    background-image: url("/img/Twitter.svg");
+    background-position: center;
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    &:hover {
+      opacity: 0.8;
+      background: none;
+      background-image: url("/img/Twitter.svg") !important;
+      background-position: center !important;
+      background-size: 80% 80% !important;
+      background-repeat: no-repeat !important;
+    }
+  }
+
+  .nav-icon-discord {
+    background-image: url("/img/Discord.svg");
+    margin-right: 20px;
+    &:hover {
+      opacity: 0.8;
+      background: none;
+      background-image: url("/img/Discord.svg") !important;
+      background-position: center !important;
+      background-size: 80% 80% !important;
+      background-repeat: no-repeat !important;
+    }
+  }
+}
 // .ctas {
 //   display: flex;
 //   justify-content: space-around;
