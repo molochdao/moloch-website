@@ -51,7 +51,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "Introduction/wtf-is-moloch",
+            docId: "introduction/wtf-is-moloch",
             position: "right",
             label: "Handbook",
           },
