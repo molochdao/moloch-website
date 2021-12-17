@@ -5,7 +5,7 @@
     .hack {
     }
     .ctas {
-      @include breakpoint(small) {
+      @include breakpoint(medium) {
         display: flex;
         flex-direction: column;
         .button {
@@ -52,8 +52,14 @@
     }
     .manifesto {
       .img {
+        position: relative;
         img {
-          max-height: 80vh;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
         }
         @include breakpoint(small) {
           margin-top: 50px;
@@ -67,7 +73,7 @@
         background-image: url("/img/css/bg_request-funding.svg");
         background-repeat: no-repeat;
         background-size: 100% auto;
-        min-height: 75.2vw;
+        min-height: 77vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -145,6 +151,9 @@
     .mailchimp-form {
       form {
         display: flex;
+        @include breakpoint(small) {
+          display: block;
+        }
       }
       input {
         border: none;
@@ -156,6 +165,10 @@
         font-family: Grenze;
         font-size: 36px;
         box-shadow: none;
+        @include breakpoint(small) {
+          width: 100%;
+          margin-top: 20px;
+        }
       }
       input {
         background: #e7e5e4;
@@ -163,6 +176,11 @@
         border-radius: 4px;
         font-family: Grenze;
         font-size: 36px;
+        margin-right: 40px;
+        @include breakpoint(small) {
+          width: 100%;
+          margin-right: 0;
+        }
       }
     }
   }

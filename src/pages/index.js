@@ -360,7 +360,12 @@ export default function Home() {
                     method="post"
                     target="_blank"
                   >
-                    <input type="email" name="EMAIL" id="EMAIL" />
+                    <input
+                      type="email"
+                      name="EMAIL"
+                      id="EMAIL"
+                      placeholder="me@example.com"
+                    />
                     <button className="button button--primary">
                       Subscribe
                     </button>

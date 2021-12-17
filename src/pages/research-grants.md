@@ -1,4 +1,4 @@
-# MolochDAO Research Grants
+## MolochDAO Research Grants
 
 **Love to research and report your findings? **
 

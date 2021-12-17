@@ -1,4 +1,4 @@
-# MolochDAO Project Grants
+## MolochDAO Project Grants
 
 Want to make an impact? We’re here to help your project succeed.
 
@@ -50,69 +50,3 @@ Take a look at our handbook for more details on how grants work and the exact pr
 **Funded Projects**
 
 Moloch DAO has awarded over $845,000 in grants since 2019.
-
-[Image / Logo]
-
-Project Name
-
-Grant Amount
-
-Recipient Name
-
-[View Details] [Link to Individual Project Profile Page]
-
-[Image / Logo]
-
-Project Name
-
-Grant Amount
-
-Recipient Name
-
-[View Details] [Link to Individual Project Profile Page]
-
-[Image / Logo]
-
-Project Name
-
-Grant Amount
-
-Recipient Name
-
-[View Details] [Link to Individual Project Profile Page]
-
-[Image / Logo]
-
-Project Name
-
-Grant Amount
-
-Recipient Name
-
-[View Details] [Link to Individual Project Profile Page]
-
-[Image / Logo]
-
-Project Name
-
-Grant Amount
-
-Recipient Name
-
-[View Details] [Link to Individual Project Profile Page]
-
-[Image / Logo]
-
-Project Name
-
-Grant Amount
-
-Recipient Name
-
-[View Details] [Link to Individual Project Profile Page]
-
-**Of Course There’s a Newsletter; You’re Welcome.**
-
-Join the official MolochDAO newsletter to get notified about upcoming grant funding, recent projects, and member events.
-
-**[Form Field] [[Subscribe](https://docs.google.com/document/d/1t0TNOfE1VPd0tgfTcgys7LCWbD9hs1KB5oFRmMy98VQ/edit#)]**
