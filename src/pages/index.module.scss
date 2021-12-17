@@ -63,6 +63,15 @@
     }
     .join,
     .funding {
+      .wrapper {
+        background-image: url("/img/css/bg_request-funding.svg");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        min-height: 75.2vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
       .text {
         max-width: 954px;
         margin: 50px auto;
@@ -132,11 +141,13 @@
         }
       }
     }
+    .form,
     .mailchimp-form {
+      form {
+        display: flex;
+      }
       input {
-        //min-width: 450px;
         border: none;
-        // margin-right: 50px;
       }
       input[type="submit"],
       button {
@@ -145,7 +156,6 @@
         font-family: Grenze;
         font-size: 36px;
         box-shadow: none;
-        margin-top: 50px;
       }
       input {
         background: #e7e5e4;
@@ -153,20 +163,6 @@
         border-radius: 4px;
         font-family: Grenze;
         font-size: 36px;
-        width: 100%;
-        &.birthday {
-          width: 80px;
-        }
-      }
-      .indicates-required {
-        font-size: 0.8em;
-        opacity: 0.8;
-      }
-      .mc-field-group {
-        margin-bottom: 20px;
-        label {
-          display: block;
-        }
       }
     }
   }

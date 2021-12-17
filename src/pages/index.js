@@ -44,43 +44,11 @@ const content = {
 
 const mailchimp_form = `
 <!-- Begin Mailchimp Signup Form -->
-<div id="mc_embed_signup">
 <form action="https://molochdao.us6.list-manage.com/subscribe/post?u=6a2d1b4767bae8cb22c1b8bd9&amp;id=f9117b00f3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-<div class="mc-field-group">
-	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-</label>
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-</div>
-<div class="mc-field-group">
-	<label for="mce-FNAME">First Name </label>
-	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-</div>
-<div class="mc-field-group">
-	<label for="mce-LNAME">Last Name </label>
-	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-</div>
-<div class="mc-field-group size1of2">
-	<label for="mce-BIRTHDAY-month">Birthday </label>
-	<div class="datefield">
-		<span class="subfield monthfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month"></span> / 
-		<span class="subfield dayfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"></span> 
-		<span class="small-meta nowrap">( mm / dd )</span>
-	</div>
-</div>	<div id="mce-responses" class="clear foot">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6a2d1b4767bae8cb22c1b8bd9_f9117b00f3" tabindex="-1" value=""></div>
-        <div class="optionalParent">
-            <div class="clear foot">
-                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-            </div>
-        </div>
-    </div>
+<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6a2d1b4767bae8cb22c1b8bd9_f9117b00f3" tabindex="-1" value=""></div>
 </form>
-</div>
 
 <!--End mc_embed_signup-->
 
@@ -247,7 +215,7 @@ export default function Home() {
           </div>
         </section>
         <section className="funding angle-up-top angle-down-bottom">
-          <div className="wrapper bg-red circle-pattern">
+          <div className="wrapper">
             <div className="container padding-top--xl padding-bottom--xl">
               <div className="row">
                 <div className="col centered">
@@ -382,10 +350,22 @@ export default function Home() {
                   Join the official MolochDAO newsletter to get notified about
                   upcoming grant funding, recent projects, and member events.
                 </div>
-                <div
+                {/* <div
                   className="mailchimp-form"
                   dangerouslySetInnerHTML={{ __html: mailchimp_form }}
-                ></div>
+                ></div> */}
+                <div className="form">
+                  <form
+                    action="https://molochdao.us6.list-manage.com/subscribe/post?u=6a2d1b4767bae8cb22c1b8bd9&amp;id=f9117b00f3"
+                    method="post"
+                    target="_blank"
+                  >
+                    <input type="email" name="EMAIL" id="EMAIL" />
+                    <button className="button button--primary">
+                      Subscribe
+                    </button>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
