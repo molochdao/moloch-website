@@ -86,17 +86,69 @@ const config = {
       footer: {
         // style: 'dark',
         links: [
-          // {
-          //   title: 'Docs',
-          //   items: [
-          //     {
-          //       label: 'Handbook',
-          //       to: '/docs/handbook',
-          //     },
-          //   ],
-          // },
+          {
+            items: [
+              {
+                to: "/",
+                label: "Home",
+              },
+              {
+                to: "/docs/introduction/wtf-is-moloch",
+                label: "Handbook",
+              },
+            ],
+          },
+          {
+            items: [
+              {
+                to: "/project-grants",
+                label: "Project Grants",
+              },
+              {
+                to: "/research-grants",
+                label: "Research Grants",
+              },
+              { to: "/new-members", label: "New Members" },
+              {
+                href: "#",
+                label: "2021 Annual Report",
+              },
+            ],
+          },
+          {
+            items: [
+              {
+                href: "https://molochdao.medium.com/",
+                label: "MolochDAO Blog",
+                target: "_blank",
+              },
+              {
+                href: "https://medium.com/ethereum-cat-herders/",
+                label: "Ethereum Cat Herders",
+                target: "_blank",
+              },
+              {
+                href: "https://medium.com/@traviswyche/",
+                label: "Death Guild Blog",
+                target: "_blank",
+              },
+            ],
+          },
+          {
+            items: [
+              {
+                href: "https://discord.com/invite/PxrnEUsbef",
+                label: "Discord",
+                target: "_blank",
+              },
+              {
+                href: "https://twitter.com/molochdao",
+                label: "Twitter",
+                target: "_blank",
+              },
+            ],
+          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Moloch DAO.`,
       },
       prism: {
         theme: lightCodeTheme,
