@@ -95,11 +95,44 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-size: 100% auto;
 }
 
+.angle-top-up {
+  height: 11vw;
+  background-image: url("/img/css/angle-up.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.angle-bottom-down {
+  height: 11vw;
+  background-image: url("/img/css/angle-down-1.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
 .blood-bottom {
   height: 33vw;
   background-image: url("/img/css/blood.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
+}
+
+.moloch-padding--xl {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  @include breakpoint(small) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.moloch-padding--lg {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.moloch-padding--md {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .hr {
@@ -112,6 +145,7 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   @include breakpoint(small) {
     max-width: 80%;
     margin: 20px auto;
+    height: 20px;
   }
 }
 

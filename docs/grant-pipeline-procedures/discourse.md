@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Discourse
 
 MolochDAO has a [Discourse forum](https://forum.daohaus.club/c/moloch-rises/165) for longer form discussion.

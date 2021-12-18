@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Troubleshooting
 
 As problematic events are identified they will be added here.

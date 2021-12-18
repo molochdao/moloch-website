@@ -10,6 +10,9 @@
         flex-direction: column;
         .button {
           margin-bottom: 20px;
+          // &:last-of-type {
+          //   margin-bottom: 0;
+          // }
         }
       }
     }
@@ -70,10 +73,10 @@
     .join,
     .funding {
       .wrapper {
-        background-image: url("/img/css/bg_request-funding.svg");
-        background-repeat: no-repeat;
-        background-size: 100% auto;
-        min-height: 77vw;
+        // background-image: url("/img/css/bg_request-funding.svg");
+        // background-repeat: no-repeat;
+        // background-size: 100% auto;
+        // min-height: 77vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -107,17 +110,28 @@
       h2 {
         margin-bottom: 50px;
       }
+      .blog-thumb {
+        .description {
+          line-height: 1.1;
+          margin-bottom: 1em;
+        }
+        @include breakpoint(small) {
+          margin-bottom: 36px;
+        }
+      }
       ul,
       li {
         padding: 0;
         margin: 0;
         list-style: none;
       }
+      li {
+      }
       .img {
         position: relative;
         width: 100%;
         padding-bottom: 57%;
-        margin: 50px 0 10px;
+        margin-bottom: 1em;
         img {
           position: absolute;
           width: 100%;
@@ -125,14 +139,27 @@
           object-fit: cover;
         }
       }
-      a {
+      .post a {
         color: var(--white);
         line-height: 1;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
         display: block;
+        background-color: rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        padding: 20px;
+        span {
+          display: block;
+          font-size: 0.8em;
+        }
       }
-      span {
-        display: block;
+
+      .read-all {
+        padding: 0 20px;
+        text-align: left;
+        a {
+          color: white;
+          font-size: 0.7em;
+        }
       }
     }
     .newsletter {

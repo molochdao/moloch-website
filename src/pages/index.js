@@ -8,51 +8,6 @@ import Section from "../components/Section";
 import Blog from "../components/Blog";
 import Head from "@docusaurus/Head";
 
-const content = {
-  page_title: "The Original Grant Giving DAO",
-  sections: [
-    {
-      content:
-        "<p>MolochDAO is a Decentralized Autonomous Organization, deployed on Ethereum mainnet. Members contribute capital with the sole intention of giving it all away to fund worthwhile public goods projects</p>",
-      ctas: [
-        {
-          text: "Launch App",
-          link: "https://app.daohaus.club/dao/0x1/0x519f9662798c2e07fbd5b30c1445602320c5cf5b",
-          external: "true",
-        },
-        {
-          text: "Learn More",
-          link: "/docs",
-        },
-      ],
-    },
-    {
-      title: "Whom Do You Serve?",
-      content: `
-      <p>Wipe your brow and bandage your wounds, if you must, but do not indulge in deceptive ideologies of power and wealth. The future of humanity requires the sacrifice of your shallow desires, but it’s reward is the ultimate satisfaction.</p>
-      <p>Moloch, the demon of child sacrifice, who makes you believe that you must take what you can get or go without, will be slain. Pledge your oath to his demise, or go down with him.</p>
-      `,
-      ctas: [
-        {
-          text: "Read Manifesto",
-          link: "/docs",
-        },
-      ],
-    },
-  ],
-};
-
-const mailchimp_form = `
-<!-- Begin Mailchimp Signup Form -->
-<form action="https://molochdao.us6.list-manage.com/subscribe/post?u=6a2d1b4767bae8cb22c1b8bd9&amp;id=f9117b00f3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6a2d1b4767bae8cb22c1b8bd9_f9117b00f3" tabindex="-1" value=""></div>
-</form>
-
-<!--End mc_embed_signup-->
-
-`;
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -77,11 +32,11 @@ export default function Home() {
       </Head>
       <div className={styles.homepage}>
         <section className="intro">
-          <div className="container padding-top--lg padding-bottom--lg">
+          <div className="container moloch-padding--lg">
             <div className="row">
               <div className="col centered">
                 <h1 className="red">
-                  The Original Grant <br />
+                  The Original Grantasdf <br />
                   Giving DAO
                 </h1>
                 <div className="text">
@@ -114,7 +69,7 @@ export default function Home() {
         <section className="manifesto">
           <div className="rip-top"></div>
           <div className="wrapper bg-red">
-            <div className="container padding-top--lg padding-bottom--lg">
+            <div className="container moloch-padding--lg">
               <div className="row">
                 <div className="text col col--7">
                   <h2>Whom Do You Serve?</h2>
@@ -135,7 +90,7 @@ export default function Home() {
                   <div className="ctas">
                     <a
                       className="button button--secondary"
-                      href="/docs/Vision%20&%20Values/manifesto"
+                      href="/docs/vision-and-values/manifesto"
                     >
                       Read Manifesto
                     </a>
@@ -150,7 +105,7 @@ export default function Home() {
           <div className="blood-bottom"></div>
         </section>
         <section className="join">
-          <div className="container padding-top--xl padding-bottom--xl">
+          <div className="container moloch-padding--xl">
             <div className="row">
               <div className="col centered">
                 <h2 className="red">DEMON BLOOD LOOKS GOOD ON YOU</h2>
@@ -183,7 +138,7 @@ export default function Home() {
         </section>
         <div className="hr" />
         <section className="manifesto-2">
-          <div className="container padding-top--xl padding-bottom--xl">
+          <div className="container moloch-padding--xl">
             <div className="row">
               <div className="text col col--6">
                 <h2>Be a Part of Something Meaningful️</h2>
@@ -202,7 +157,7 @@ export default function Home() {
                 <div className="ctas">
                   <a
                     className="button button--secondary"
-                    href="/docs/Vision%20&%20Values/manifesto"
+                    href="/docs/vision-and-values/manifesto"
                   >
                     Read Manifesto
                   </a>
@@ -214,9 +169,11 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="funding angle-up-top angle-down-bottom">
-          <div className="wrapper">
-            <div className="container padding-top--xl padding-bottom--xl">
+        <section className="funding">
+          <div className="angle-top-up" />
+
+          <div className="wrapper bg-red">
+            <div className="container moloch-padding--xl">
               <div className="row">
                 <div className="col centered">
                   <h2>Request Funding</h2>
@@ -248,9 +205,10 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className="angle-bottom-down" />
         </section>
         <section className="annual-report">
-          <div className="container padding-top--xl padding-bottom--md">
+          <div className="container moloch-padding--xl">
             <div className="row">
               <div className="text col col--6">
                 <h2 className="red">2021 Has Been Quite The Year!</h2>
@@ -276,14 +234,14 @@ export default function Home() {
         <section className="blog">
           <div className="angle-top-down"></div>
           <div className="wrapper bg-red">
-            <div className="container padding-top--xl padding-bottom-xl">
+            <div className="container moloch-padding--lg">
               <div className="row">
                 <div className="col">
                   <h2>Satisfy Your Thirst For More</h2>
                 </div>
               </div>
               <div className="row">
-                <div className="col col--4">
+                <div className="blog-thumb col col--4">
                   <h3>MolochDAO Blog</h3>
                   <div className="description">
                     From the summoning of the DAO, the first of its kind,
@@ -295,12 +253,12 @@ export default function Home() {
                   </div>
                   <div className="read-all">
                     <a href="https://molochdao.medium.com/" target="_blank">
-                      Read All
+                      https://molochdao.medium.com/
                     </a>
                   </div>
                 </div>
 
-                <div className="col col--4">
+                <div className="blog-thumb col col--4">
                   <h3>Ethereum Cat Herders</h3>
                   <div className="description">
                     Decentralized project management contributions to the growth
@@ -314,12 +272,12 @@ export default function Home() {
                       href="https://medium.com/ethereum-cat-herders"
                       target="_blank"
                     >
-                      Read All
+                      https://medium.com/ethereum-cat-herders
                     </a>
                   </div>
                 </div>
 
-                <div className="col col--4">
+                <div className="blog-thumb col col--4">
                   <h3>Death Guild</h3>
                   <div className="description">
                     Questioning the models we take for granted regarding
@@ -330,7 +288,7 @@ export default function Home() {
                   </div>
                   <div className="read-all">
                     <a href="https://medium.com/@traviswyche" target="_blank">
-                      Read All
+                      https://medium.com/@traviswyche
                     </a>
                   </div>
                 </div>
@@ -340,7 +298,7 @@ export default function Home() {
           <div className="rip-bottom"></div>
         </section>
         <section className="newsletter">
-          <div className="container padding-top--md padding-bottom--xl">
+          <div className="container  moloch-padding--xl">
             <div className="row">
               <div className="col">
                 <h2 className="red">
@@ -350,10 +308,7 @@ export default function Home() {
                   Join the official MolochDAO newsletter to get notified about
                   upcoming grant funding, recent projects, and member events.
                 </div>
-                {/* <div
-                  className="mailchimp-form"
-                  dangerouslySetInnerHTML={{ __html: mailchimp_form }}
-                ></div> */}
+
                 <div className="form">
                   <form
                     action="https://molochdao.us6.list-manage.com/subscribe/post?u=6a2d1b4767bae8cb22c1b8bd9&amp;id=f9117b00f3"

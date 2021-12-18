@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Learn About Web3
 
 **General, Basics & Overview of Web3**

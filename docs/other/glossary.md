@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Glossary
 
 A running list of nomenclature. Always evolving, forever in progress…

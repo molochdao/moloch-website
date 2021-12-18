@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Moloch v2 TL;DR
 
 MolochDAO utilizes the Moloch V2 framework. A great overview of Moloch V2 and its benefits can be found [here](https://medium.com/raid-guild/moloch-evolved-v2-primer-25c9cdeab455).
