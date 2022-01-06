@@ -75,9 +75,9 @@ export default function Home() {
                   <h2>Whom Do You Serve?</h2>
                   <div className="text">
                     <p>
-                      Wipe your brow and bandage your wounds, if you must, but
-                      do not indulge in deceptive and selfish ideologies. The
-                      future of humanity requires the sacrifice of your shallow
+                     
+                   
+                      The future of humanity requires the sacrifice of your shallow
                       desires, but it’s reward is the head of Moloch himself.
                     </p>
                     <p>
@@ -215,7 +215,7 @@ export default function Home() {
                 <div className="text">
                   <p>
                     Read our annual report to see what we’ve been up to in 2021,
-                    which projects we’ve funded, and what you can expect in
+                    which projects we’ve funded and what you can expect in
                     2022.
                   </p>
                 </div>
