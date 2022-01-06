@@ -36,7 +36,7 @@ export default function Home() {
             <div className="row">
               <div className="col centered">
                 <h1 className="red">
-                  The Original Grantasdf <br />
+                  The Original Grant <br />
                   Giving DAO
                 </h1>
                 <div className="text">
