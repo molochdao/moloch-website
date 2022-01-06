@@ -306,7 +306,7 @@ export default function Home() {
                 </h2>
                 <div className="text">
                   Join the official MolochDAO newsletter to get notified about
-                  upcoming grant funding, recent projects, and member events.
+                  upcoming grant funding, recent projects and member events.
                 </div>
 
                 <div className="form">
