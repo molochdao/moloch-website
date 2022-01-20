@@ -63,7 +63,7 @@ const config = {
           },
           { to: "/new-members", label: "New Members", position: "right" },
           {
-            href: "#",
+            to: "/annual-report",
             label: "2021 Annual Report",
             position: "right",
           },
@@ -110,7 +110,7 @@ const config = {
               },
               { to: "/new-members", label: "New Members" },
               {
-                href: "#",
+                to: "/annual-report",
                 label: "2021 Annual Report",
               },
             ],

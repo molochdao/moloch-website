@@ -1,0 +1,55 @@
+@import "./../css/breakpoints.scss";
+
+.newsletter {
+  :global {
+    .hack {
+    }
+    .text {
+      margin: 50px 0;
+    }
+    form {
+      //display: flex;
+      width: 70%;
+      @include breakpoint(small) {
+        width: 100%;
+      }
+    }
+    .form,
+    .mailchimp-form {
+      form {
+        display: flex;
+        @include breakpoint(small) {
+          display: block;
+        }
+      }
+      input {
+        border: none;
+      }
+      input[type="submit"],
+      button {
+        background-color: var(--red-1);
+        color: var(--white);
+        font-family: Grenze;
+        font-size: 36px;
+        box-shadow: none;
+        @include breakpoint(small) {
+          width: 100%;
+          margin-top: 20px;
+        }
+      }
+      input {
+        background: #e7e5e4;
+        box-shadow: inset 4px 4px 12px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        font-family: Grenze;
+        font-size: 36px;
+        margin-right: 40px;
+        padding: 0 0.5em;
+        @include breakpoint(small) {
+          width: 100%;
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

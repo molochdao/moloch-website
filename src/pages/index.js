@@ -3,10 +3,11 @@ import clsx from "clsx";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import styles from "./index.module.scss";
+import styles from "./pages.module.scss";
 import Section from "../components/Section";
 import Blog from "../components/Blog";
 import Head from "@docusaurus/Head";
+import Newsletter from "../components/Newsletter";
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
@@ -75,10 +76,9 @@ export default function Home() {
                   <h2>Whom Do You Serve?</h2>
                   <div className="text">
                     <p>
-                     
-                   
-                      The future of humanity requires the sacrifice of your shallow
-                      desires, but it’s reward is the head of Moloch himself.
+                      The future of humanity requires the sacrifice of your
+                      shallow desires, but it’s reward is the head of Moloch
+                      himself.
                     </p>
                     <p>
                       This demon god of coordination failure, who consumes our
@@ -215,8 +215,7 @@ export default function Home() {
                 <div className="text">
                   <p>
                     Read our annual report to see what we’ve been up to in 2021,
-                    which projects we’ve funded and what you can expect in
-                    2022.
+                    which projects we’ve funded and what you can expect in 2022.
                   </p>
                 </div>
                 <div className="ctas">
@@ -297,39 +296,7 @@ export default function Home() {
           </div>
           <div className="rip-bottom"></div>
         </section>
-        <section className="newsletter">
-          <div className="container  moloch-padding--xl">
-            <div className="row">
-              <div className="col">
-                <h2 className="red">
-                  Of Course There’s a Newsletter; You’re Welcome.
-                </h2>
-                <div className="text">
-                  Join the official MolochDAO newsletter to get notified about
-                  upcoming grant funding, recent projects and member events.
-                </div>
-
-                <div className="form">
-                  <form
-                    action="https://molochdao.us6.list-manage.com/subscribe/post?u=6a2d1b4767bae8cb22c1b8bd9&amp;id=f9117b00f3"
-                    method="post"
-                    target="_blank"
-                  >
-                    <input
-                      type="email"
-                      name="EMAIL"
-                      id="EMAIL"
-                      placeholder="me@example.com"
-                    />
-                    <button className="button button--primary">
-                      Subscribe
-                    </button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <Newsletter />
       </div>
     </Layout>
   );
