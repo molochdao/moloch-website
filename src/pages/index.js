@@ -31,7 +31,7 @@ export default function Home() {
           content="MolochDAO is a grant giving Decentralized Autonomous Organization, deployed on Ethereum mainnet, to fund essential digital public goods."
         />
       </Head>
-      <div className={styles.homepage}>
+      <div className={styles.page}>
         <section className="intro">
           <div className="container moloch-padding--lg">
             <div className="row">
@@ -96,7 +96,7 @@ export default function Home() {
                     </a>
                   </div>
                 </div>
-                <div className="img col col--5">
+                <div className="img col col--5 contain-img">
                   <img src="img/content/moloch1.png" alt="" />
                 </div>
               </div>
@@ -104,7 +104,7 @@ export default function Home() {
           </div>
           <div className="blood-bottom"></div>
         </section>
-        <section className="join">
+        <section className="join single-col">
           <div className="container moloch-padding--xl">
             <div className="row">
               <div className="col centered">
@@ -169,7 +169,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="funding">
+        <section className="funding single-col">
           <div className="angle-top-up" />
 
           <div className="wrapper bg-red">

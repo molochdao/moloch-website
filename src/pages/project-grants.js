@@ -3,6 +3,7 @@ import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Head from "@docusaurus/Head";
 import Newsletter from "../components/Newsletter";
+import styles from "./pages.module.scss";
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
@@ -26,7 +27,7 @@ export default function Home() {
           content="MolochDAO is a grant giving Decentralized Autonomous Organization, deployed on Ethereum mainnet, to fund essential digital public goods."
         />
       </Head>
-      <div>
+      <div className={styles.page}>
         <section className="intro">
           <div className="container moloch-padding--lg">
             <div className="row">
@@ -118,37 +119,42 @@ export default function Home() {
         </section>
         <div className="hr" />
 
-        <section>
-          <div className="container moloch-padding-xl">
-            <div className="row">
-              <div className="col">
-                <h2>How to Get Funding</h2>
-                <ol className="list-big">
-                  <li>
-                    Get initial feedback from community members about your
-                    project.
-                  </li>
-                  <li>
-                    Jump on a video call to determine if your project is a good
-                    fit for our grants.
-                  </li>
-                  <li>
-                    Submit a proposal on-chain through the DAOHaus platform.
-                  </li>
-                  <li>
+        <section class="single-col">
+          <div className="wrapper">
+            <div className="container moloch-padding-xl">
+              <div className="row">
+                <div className="col">
+                  <h2 className="centered">How to Get Funding</h2>
+                  <h4 className="centered">
+                    Here’s a quick overview of the grant proposal process.
+                  </h4>
+                  <ol className="list-big">
+                    <li>
+                      Get initial feedback from community members about your
+                      project.
+                    </li>
+                    <li>
+                      Jump on a video call to determine if your project is a
+                      good fit for our grants.
+                    </li>
+                    <li>
+                      Submit a proposal on-chain through the DAOHaus platform.
+                    </li>
+                    <li>
+                      Get more feedback about the project before we commit to a
+                      grant.
+                    </li>
+                  </ol>
+                  <h4 className="centered">Interested? Find out more!</h4>
+                  <p className="centered">
                     Get more feedback about the project before we commit to a
                     grant.
-                  </li>
-                </ol>
-                <h4>Interested? Find out more!</h4>
-                <p>
-                  Get more feedback about the project before we commit to a
-                  grant.
-                </p>
-                <div className="ctas">
-                  <a className="button button--secondary" href="#">
-                    Grant Proposal Process
-                  </a>
+                  </p>
+                  <div className="ctas centered">
+                    <a className="button button--secondary" href="#">
+                      Grant Proposal Process
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -168,7 +174,89 @@ export default function Home() {
                       Moloch DAO has awarded over $845,000 in grants since 2019.
                     </p>
                   </div>
-                  <div className="content-cards">Content Cards</div>
+
+                  <div className="content-cards">
+                    <div className="content-card">
+                      <div className="top">
+                        <div className="icon">
+                          <img src="img/icon-dollarsign.svg" alt="" />
+                        </div>
+                        <h5>Project Title</h5>
+                      </div>
+                      <div className="content">
+                        <p>
+                          2021
+                          <br />
+                          $5,000
+                          <br />
+                          Development Type
+                          <br />
+                          Subject Area
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="content-card">
+                      <div className="top">
+                        <div className="icon">
+                          <img src="img/icon-dollarsign.svg" alt="" />
+                        </div>
+                        <h5>Project Title</h5>
+                      </div>
+                      <div className="content">
+                        <p>
+                          2021
+                          <br />
+                          $5,000
+                          <br />
+                          Development Type
+                          <br />
+                          Subject Area
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="content-card">
+                      <div className="top">
+                        <div className="icon">
+                          <img src="img/icon-dollarsign.svg" alt="" />
+                        </div>
+                        <h5>Project Title</h5>
+                      </div>
+                      <div className="content">
+                        <p>
+                          2021
+                          <br />
+                          $5,000
+                          <br />
+                          Development Type
+                          <br />
+                          Subject Area
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="content-card">
+                      <div className="top">
+                        <div className="icon">
+                          <img src="img/icon-dollarsign.svg" alt="" />
+                        </div>
+                        <h5>Project Title</h5>
+                      </div>
+                      <div className="content">
+                        <p>
+                          2021
+                          <br />
+                          $5,000
+                          <br />
+                          Development Type
+                          <br />
+                          Subject Area
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
                   <div className="ctas">
                     <a className="button button--secondary" href="#">
                       Learn More

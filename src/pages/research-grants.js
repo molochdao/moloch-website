@@ -3,6 +3,7 @@ import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Head from "@docusaurus/Head";
 import Newsletter from "../components/Newsletter";
+import styles from "./pages.module.scss";
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
@@ -26,7 +27,7 @@ export default function Home() {
           content="MolochDAO is a grant giving Decentralized Autonomous Organization, deployed on Ethereum mainnet, to fund essential digital public goods."
         />
       </Head>
-      <div>
+      <div className={styles.page}>
         <section className="intro">
           <div className="container moloch-padding--lg">
             <div className="row">
