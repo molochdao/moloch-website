@@ -25,8 +25,11 @@
   --ifm-code-font-size: 95%;
 
   --ifm-font-family-base: Grenze;
-  --ifm-h1-font-size: 112px;
   --ifm-button-border-radius: 4px;
+
+  --ifm-h1-font-size: 112px;
+  --ifm-h3-font-size: 64px;
+  --ifm-h4-font-size: 34px;
 }
 
 html,
@@ -135,6 +138,21 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   padding-bottom: 2rem;
 }
 
+.moloch-margin--xl {
+  margin-bottom: 5rem;
+  @include breakpoint(small) {
+    margin-bottom: 2rem;
+  }
+}
+
+.moloch-margin--lg {
+  margin-bottom: 3rem;
+}
+
+.moloch-margin--md {
+  margin-bottom: 2rem;
+}
+
 .hr {
   height: 60px;
   max-width: 960px;
@@ -162,6 +180,22 @@ h2 {
   line-height: 92%;
   @include breakpoint(small) {
     font-size: 48px;
+  }
+}
+
+h3 {
+  font-size: 64px;
+  line-height: 92%;
+  @include breakpoint(small) {
+    font-size: 36px;
+  }
+}
+
+h4 {
+  font-size: 34px;
+  line-height: 92%;
+  @include breakpoint(small) {
+    font-size: 24px;
   }
 }
 

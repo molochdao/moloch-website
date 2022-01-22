@@ -56,7 +56,7 @@ export default function Home() {
           <div className="wrapper bg-red">
             <div className="container moloch-padding--lg">
               <div className="row">
-                <div className="img col col--5">
+                <div className="img col col--5 contain-img">
                   <img src="img/content/Group 2.jpg" alt="" />
                 </div>
                 <div className="text col col--7">
@@ -124,8 +124,10 @@ export default function Home() {
             <div className="container moloch-padding-xl">
               <div className="row">
                 <div className="col">
-                  <h2 className="centered">How to Get Funding</h2>
-                  <h4 className="centered">
+                  <h2 className="centered moloch-margin--md">
+                    How to Get Funding
+                  </h2>
+                  <h4 className="centered moloch-margin--md">
                     Here’s a quick overview of the grant proposal process.
                   </h4>
                   <ol className="list-big">
@@ -145,12 +147,15 @@ export default function Home() {
                       grant.
                     </li>
                   </ol>
-                  <h4 className="centered">Interested? Find out more!</h4>
-                  <p className="centered">
+                  <div className="moloch-margin--md"></div>
+                  <h4 className="centered moloch-margin--md">
+                    Interested? Find out more!
+                  </h4>
+                  <p className="centered moloch-margin--md">
                     Get more feedback about the project before we commit to a
                     grant.
                   </p>
-                  <div className="ctas centered">
+                  <div className="ctas centered moloch-margin--xl">
                     <a className="button button--secondary" href="#">
                       Grant Proposal Process
                     </a>
@@ -257,11 +262,11 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="ctas">
+                  {/* <div className="ctas">
                     <a className="button button--secondary" href="#">
                       Learn More
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

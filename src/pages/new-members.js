@@ -68,7 +68,7 @@ export default function Home() {
           <div className="wrapper bg-red">
             <div className="container moloch-padding--lg">
               <div className="row">
-                <div className="img col col--5">
+                <div className="img col col--5 contain-img">
                   <img src="img/content/Group 3.jpg" alt="" />
                 </div>
                 <div className="text col col--7">
@@ -102,14 +102,14 @@ export default function Home() {
           </div>
           <div className="rip-bottom"></div>
         </section>
-        <section className="join">
+        <section className="">
           <div className="container moloch-padding--xl">
             <div className="row">
               <div className="text col col--7">
-                <h2>
+                <h3>
                   We exist to eliminate societal patterns of optimizing for the
                   individual at the cost of the collective.
-                </h2>
+                </h3>
                 <div className="text">
                   <p>
                     The demon, Moloch, prevents collective action, misaligning
@@ -137,7 +137,7 @@ export default function Home() {
                   </a>
                 </div>
               </div>
-              <div className="img col col--5">
+              <div className="img col col--5 contain-img">
                 <img src="img/content/Group 5.jpg" alt="" />
               </div>
             </div>
@@ -151,7 +151,9 @@ export default function Home() {
             <div className="container moloch-padding--xl">
               <div className="row">
                 <div className="col centered">
-                  <h2>So You Still Want to Join?</h2>
+                  <h2 className="moloch-margin--md">
+                    So You Still Want to Join?
+                  </h2>
                   <div className="text">
                     <p>
                       Do you have what it takes to slay the demon who falsely
@@ -160,8 +162,77 @@ export default function Home() {
                     </p>
                     <p>I thought so!</p>
                   </div>
-                  <h3>There are a few ways to join our DAO:</h3>
-                  <div className="content-cards">Content Cards</div>
+                  <h3 className="moloch-margin--md">
+                    There are a few ways to join our DAO:
+                  </h3>
+                  <div className="content-cards">
+                    <div className="content-card">
+                      <div className="top">
+                        <div className="icon">
+                          <img src="img/icon-dollarsign.svg" alt="" />
+                        </div>
+                        <h5>Pledge</h5>
+                      </div>
+                      <div className="content">
+                        <p>Pledge 10-100 wETH</p>
+                        <p>
+                          <a href="">Visit MolochDAO to pledge</a>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="content-card">
+                      <div className="top">
+                        <div className="icon">
+                          <img src="img/icon-pen.svg" alt="" />
+                        </div>
+                        <h5>Share</h5>
+                      </div>
+                      <div className="content">
+                        <p>Share your proposal here & request sponsorship</p>
+                        <p>
+                          <a href="">Visit the MolochDAO Discourse forum</a>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="content-card">
+                      <div className="top">
+                        <div className="icon">
+                          <img src="img/icon-thumbsup.svg" alt="" />
+                        </div>
+                        <h5>Propose</h5>
+                      </div>
+                      How to submit a funding proposal
+                      <div className="content">
+                        <p>Get DAO membership via a grant from MolochDAO</p>
+                        <p>
+                          <a href="">How to submit a funding proposal</a>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="content-card">
+                      <div className="top">
+                        <div className="icon">
+                          <img src="img/icon-envelope.svg" alt="" />
+                        </div>
+                        <h5>Contact</h5>
+                      </div>
+                      <div className="content">
+                        <p>
+                          Get involved and do work for the DAO to earn your way
+                          in
+                        </p>
+                        <p>
+                          <a href="">
+                            Contact a member of the ReallyBoringGuild
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="moloch-margin--md"></div>
                   <div className="ctas">
                     <a className="button button--secondary" href="#">
                       Learn More
@@ -175,10 +246,13 @@ export default function Home() {
         </section>
 
         <section>
+          <div className="moloch-margin--xl"></div>
           <div className="container moloch-padding-xl">
             <div className="row">
               <div className="col">
-                <h2>How to get started</h2>
+                <h2 className="centered moloch-margin--lg">
+                  How to get started
+                </h2>
                 <ol className="list-big">
                   <li>
                     Read through our mission and values, vision of Web 3, and

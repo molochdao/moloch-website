@@ -56,7 +56,7 @@ export default function Home() {
           <div className="wrapper bg-red">
             <div className="container moloch-padding--lg">
               <div className="row">
-                <div className="img col col--5">
+                <div className="img col col--5 contain-img">
                   <img src="img/content/Group 1.jpg" alt="" />
                 </div>
                 <div className="text col col--7">
@@ -82,37 +82,43 @@ export default function Home() {
           <div className="rip-bottom"></div>
         </section>
 
-        <section>
-          <div className="container moloch-padding-xl">
-            <div className="row">
-              <div className="col">
-                <h2>How to Get Funding</h2>
-                <ol className="list-big">
-                  <li>
-                    Get initial feedback from community members about your
-                    project.
-                  </li>
-                  <li>
-                    Jump on a video call to determine if your project is a good
-                    fit for our grants.
-                  </li>
-                  <li>
-                    Submit a proposal on-chain through the DAOHaus platform.
-                  </li>
-                  <li>
+        <section class="single-col">
+          <div className="wrapper">
+            <div className="container moloch-padding-xl">
+              <div className="row">
+                <div className="col">
+                  <h2 className="centered moloch-margin--md">
+                    How to Get Funding
+                  </h2>
+                  <ol className="list-big">
+                    <li>
+                      Get initial feedback from community members about your
+                      project.
+                    </li>
+                    <li>
+                      Jump on a video call to determine if your project is a
+                      good fit for our grants.
+                    </li>
+                    <li>
+                      Submit a proposal on-chain through the DAOHaus platform.
+                    </li>
+                    <li>
+                      Get more feedback about the project before we commit to a
+                      grant.
+                    </li>
+                  </ol>
+                  <h4 className="centered moloch-margin--md">
+                    Interested? Find out more!
+                  </h4>
+                  <p className="centered moloch-margin--md">
                     Get more feedback about the project before we commit to a
                     grant.
-                  </li>
-                </ol>
-                <h4>Interested? Find out more!</h4>
-                <p>
-                  Get more feedback about the project before we commit to a
-                  grant.
-                </p>
-                <div className="ctas">
-                  <a className="button button--secondary" href="#">
-                    Grant Proposal Process
-                  </a>
+                  </p>
+                  <div className="ctas centered moloch-margin--xl">
+                    <a className="button button--secondary" href="#">
+                      Grant Proposal Process
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
