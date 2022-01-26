@@ -40,10 +40,13 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="ctas">
-                  <a className="button button--primary" href="#">
+                  <a className="button moloch-button button--primary" href="#">
                     Apply for Funding
                   </a>
-                  <a className="button button--secondary" href="#">
+                  <a
+                    className="button moloch-button button--secondary"
+                    href="#"
+                  >
                     View Funded Projects
                   </a>
                 </div>
@@ -56,8 +59,10 @@ export default function Home() {
           <div className="wrapper bg-red">
             <div className="container moloch-padding--lg">
               <div className="row">
-                <div className="img col col--5 contain-img">
-                  <img src="img/content/Group 2.jpg" alt="" />
+                <div className="img col col--5 ">
+                  <div className="contain-img">
+                    <img src="img/content/Group 2.jpg" alt="" />
+                  </div>
                 </div>
                 <div className="text col col--7">
                   <h4>
@@ -78,7 +83,10 @@ export default function Home() {
                     <p>$1,000,000 in grants is available each year.</p>
                   </div>
                   <div className="ctas">
-                    <a className="button button--secondary" href="#">
+                    <a
+                      className="button moloch-button button--secondary"
+                      href="#"
+                    >
                       View the 2021 Annual Report
                     </a>
                   </div>
@@ -124,6 +132,7 @@ export default function Home() {
             <div className="container moloch-padding-xl">
               <div className="row">
                 <div className="col">
+                  <div className="moloch-margin--md"></div>
                   <h2 className="centered moloch-margin--md">
                     How to Get Funding
                   </h2>
@@ -156,7 +165,10 @@ export default function Home() {
                     grant.
                   </p>
                   <div className="ctas centered moloch-margin--xl">
-                    <a className="button button--secondary" href="#">
+                    <a
+                      className="button moloch-button button--secondary"
+                      href="#"
+                    >
                       Grant Proposal Process
                     </a>
                   </div>
@@ -263,7 +275,7 @@ export default function Home() {
                   </div>
 
                   {/* <div className="ctas">
-                    <a className="button button--secondary" href="#">
+                    <a className="button moloch-button button--secondary" href="#">
                       Learn More
                     </a>
                   </div> */}

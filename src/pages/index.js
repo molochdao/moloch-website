@@ -50,14 +50,14 @@ export default function Home() {
                 </div>
                 <div className="ctas">
                   <a
-                    className="button button--primary"
+                    className="button moloch-button button--primary"
                     href="https://app.daohaus.club/dao/0x1/0x519f9662798c2e07fbd5b30c1445602320c5cf5b"
                     target="_blank"
                   >
                     Launch App
                   </a>
                   <a
-                    className="button button--secondary"
+                    className="button moloch-button button--secondary"
                     href="/docs/Introduction/wtf-is-moloch"
                   >
                     Learn More
@@ -89,7 +89,7 @@ export default function Home() {
                   </div>
                   <div className="ctas">
                     <a
-                      className="button button--secondary"
+                      className="button moloch-button button--secondary"
                       href="/docs/vision-and-values/manifesto"
                     >
                       Read Manifesto
@@ -118,14 +118,14 @@ export default function Home() {
                 </div>
                 <div className="ctas">
                   <a
-                    className="button button--primary"
+                    className="button moloch-button button--primary"
                     href="https://discord.com/invite/PxrnEUsbef"
                     target="_blank"
                   >
                     Join Discord
                   </a>
                   <a
-                    className="button button--primary"
+                    className="button moloch-button button--primary"
                     href="https://twitter.com/molochdao"
                     target="_blank"
                   >
@@ -156,7 +156,7 @@ export default function Home() {
                 </div>
                 <div className="ctas">
                   <a
-                    className="button button--secondary"
+                    className="button moloch-button button--secondary"
                     href="/docs/vision-and-values/manifesto"
                   >
                     Read Manifesto
@@ -189,13 +189,13 @@ export default function Home() {
                   </div>
                   <div className="ctas">
                     <a
-                      className="button button--secondary"
+                      className="button moloch-button button--secondary"
                       href="/project-grants"
                     >
                       Project Grants
                     </a>
                     <a
-                      className="button button--secondary"
+                      className="button moloch-button button--secondary"
                       href="/research-grants"
                     >
                       Research Grants
@@ -219,7 +219,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="ctas">
-                  <a className="button button--primary" href="#">
+                  <a className="button moloch-button button--primary" href="#">
                     View Annual Report
                   </a>
                 </div>

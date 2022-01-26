@@ -46,14 +46,14 @@ export default function Home() {
                 </div>
                 <div className="ctas">
                   <a
-                    className="button button--primary"
+                    className="button moloch-button button--primary"
                     href="https://app.daohaus.club/dao/0x1/0x519f9662798c2e07fbd5b30c1445602320c5cf5b"
                     target="_blank"
                   >
                     Launch App
                   </a>
                   <a
-                    className="button button--secondary"
+                    className="button moloch-button button--secondary"
                     href="/docs/Introduction/wtf-is-moloch"
                   >
                     Learn More
@@ -68,8 +68,10 @@ export default function Home() {
           <div className="wrapper bg-red">
             <div className="container moloch-padding--lg">
               <div className="row">
-                <div className="img col col--5 contain-img">
-                  <img src="img/content/Group 3.jpg" alt="" />
+                <div className="img col col--5">
+                  <div className="contain-img">
+                    <img src="img/content/Group 3.jpg" alt="" />
+                  </div>
                 </div>
                 <div className="text col col--7">
                   <h2>Don’t Say We Didn’t Warn You</h2>
@@ -90,7 +92,7 @@ export default function Home() {
                   </div>
                   <div className="ctas">
                     <a
-                      className="button button--secondary"
+                      className="button moloch-button button--secondary"
                       href="/docs/vision-and-values/manifesto"
                     >
                       Read Manifesto
@@ -130,15 +132,17 @@ export default function Home() {
                 </div>
                 <div className="ctas">
                   <a
-                    className="button button--secondary"
+                    className="button moloch-button button--secondary"
                     href="/docs/vision-and-values/manifesto"
                   >
                     Read Manifesto
                   </a>
                 </div>
               </div>
-              <div className="img col col--5 contain-img">
-                <img src="img/content/Group 5.jpg" alt="" />
+              <div className="img col col--5">
+                <div className="contain-img">
+                  <img src="img/content/Group 5.jpg" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -162,9 +166,9 @@ export default function Home() {
                     </p>
                     <p>I thought so!</p>
                   </div>
-                  <h3 className="moloch-margin--md">
+                  <h4 className="moloch-margin--md">
                     There are a few ways to join our DAO:
-                  </h3>
+                  </h4>
                   <div className="content-cards">
                     <div className="content-card">
                       <div className="top">
@@ -234,7 +238,10 @@ export default function Home() {
                   </div>
                   <div className="moloch-margin--md"></div>
                   <div className="ctas">
-                    <a className="button button--secondary" href="#">
+                    <a
+                      className="button moloch-button button--secondary"
+                      href="#"
+                    >
                       Learn More
                     </a>
                   </div>
