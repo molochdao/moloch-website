@@ -9,27 +9,21 @@ import Blog from "../components/Blog";
 import Head from "@docusaurus/Head";
 import Newsletter from "../components/Newsletter";
 
+const page_meta = {
+  title: "MolochDAO: The Original Grant Giving DAO",
+  description:
+    "MolochDAO is a grant giving Decentralized Autonomous Organization, deployed on Ethereum mainnet, to fund essential digital public goods.",
+};
+
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
-    >
+    <Layout title={page_meta.title} description={page_meta.description}>
       <Head>
-        <title>MolochDAO: The Original Grant Giving DAO</title>
-        <meta
-          property="og:title"
-          content="MolochDAO: The Original Grant Giving DAO"
-        />
-        <meta
-          name="description"
-          content="MolochDAO is a grant giving Decentralized Autonomous Organization, deployed on Ethereum mainnet, to fund essential digital public goods."
-        />
-        <meta
-          property="og:description"
-          content="MolochDAO is a grant giving Decentralized Autonomous Organization, deployed on Ethereum mainnet, to fund essential digital public goods."
-        />
+        <title>{page_meta.title}</title>
+        <meta property="og:title" content={page_meta.title} />
+        <meta name="description" content={page_meta.description} />
+        <meta property="og:description" content={page_meta.description} />
       </Head>
       <div className={styles.page}>
         <section className="intro">

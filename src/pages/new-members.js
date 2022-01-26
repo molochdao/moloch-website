@@ -5,27 +5,21 @@ import Head from "@docusaurus/Head";
 import Newsletter from "../components/Newsletter";
 import styles from "./pages.module.scss";
 
+const page_meta = {
+  title: "Become A Member of MolochDAO",
+  description:
+    "Help beat the tragedy of the commons, with collective action for the public good. Learn more about becoming a member of MolochDAO.",
+};
+
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
-    >
+    <Layout title={page_meta.title} description={page_meta.description}>
       <Head>
-        <title>MolochDAO: The Original Grant Giving DAO</title>
-        <meta
-          property="og:title"
-          content="MolochDAO: The Original Grant Giving DAO"
-        />
-        <meta
-          name="description"
-          content="MolochDAO is a grant giving Decentralized Autonomous Organization, deployed on Ethereum mainnet, to fund essential digital public goods."
-        />
-        <meta
-          property="og:description"
-          content="MolochDAO is a grant giving Decentralized Autonomous Organization, deployed on Ethereum mainnet, to fund essential digital public goods."
-        />
+        <title>{page_meta.title}</title>
+        <meta property="og:title" content={page_meta.title} />
+        <meta name="description" content={page_meta.description} />
+        <meta property="og:description" content={page_meta.description} />
       </Head>
       <div className={styles.page}>
         <section className="intro">
@@ -132,10 +126,11 @@ export default function Home() {
                 </div>
                 <div className="ctas">
                   <a
+                    target="_blank"
                     className="button moloch-button button--secondary"
-                    href="/docs/vision-and-values/manifesto"
+                    href="https://github.com/MolochVentures/Whitepaper/raw/master/Whitepaper.pdf"
                   >
-                    Read Manifesto
+                    Read Whitepaper
                   </a>
                 </div>
               </div>
@@ -180,7 +175,9 @@ export default function Home() {
                       <div className="content">
                         <p>Pledge 10-100 wETH</p>
                         <p>
-                          <a href="">Visit MolochDAO to pledge</a>
+                          <a href="https://app.daohaus.club/dao/0x1/0x519f9662798c2e07fbd5b30c1445602320c5cf5b">
+                            Visit MolochDAO to pledge
+                          </a>
                         </p>
                       </div>
                     </div>
@@ -195,7 +192,9 @@ export default function Home() {
                       <div className="content">
                         <p>Share your proposal here & request sponsorship</p>
                         <p>
-                          <a href="">Visit the MolochDAO Discourse forum</a>
+                          <a href="https://forum.daohaus.club/c/moloch-rises">
+                            Visit the MolochDAO Discourse forum
+                          </a>
                         </p>
                       </div>
                     </div>
@@ -240,7 +239,7 @@ export default function Home() {
                   <div className="ctas">
                     <a
                       className="button moloch-button button--secondary"
-                      href="#"
+                      href="http://localhost:3000/docs/DAO-member-policies/how-to-join-molochdao"
                     >
                       Learn More
                     </a>

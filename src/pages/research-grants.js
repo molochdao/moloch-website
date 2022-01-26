@@ -5,27 +5,21 @@ import Head from "@docusaurus/Head";
 import Newsletter from "../components/Newsletter";
 import styles from "./pages.module.scss";
 
+const page_meta = {
+  title: "Research Grant Funding From MolochDAO",
+  description:
+    "Love to research and report your findings? Help MolochDAO make informed decisions when providing projects with funding.",
+};
+
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
-    >
+    <Layout title={page_meta.title} description={page_meta.description}>
       <Head>
-        <title>MolochDAO: Project Grants</title>
-        <meta
-          property="og:title"
-          content="MolochDAO: The Original Grant Giving DAO"
-        />
-        <meta
-          name="description"
-          content="MolochDAO is a grant giving Decentralized Autonomous Organization, deployed on Ethereum mainnet, to fund essential digital public goods."
-        />
-        <meta
-          property="og:description"
-          content="MolochDAO is a grant giving Decentralized Autonomous Organization, deployed on Ethereum mainnet, to fund essential digital public goods."
-        />
+        <title>{page_meta.title}</title>
+        <meta property="og:title" content={page_meta.title} />
+        <meta name="description" content={page_meta.description} />
+        <meta property="og:description" content={page_meta.description} />
       </Head>
       <div className={styles.page}>
         <section className="intro">
@@ -40,14 +34,11 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="ctas">
-                  <a className="button moloch-button button--primary" href="#">
-                    Apply for Funding
-                  </a>
                   <a
-                    className="button moloch-button button--secondary"
-                    href="#"
+                    className="button moloch-button button--primary"
+                    href="/docs/grant-pipeline-procedures/proposal-process/application"
                   >
-                    View Funded Projects
+                    Apply for Funding
                   </a>
                 </div>
               </div>
@@ -125,7 +116,7 @@ export default function Home() {
                   <div className="ctas centered moloch-margin--xl">
                     <a
                       className="button moloch-button button--secondary"
-                      href="#"
+                      href="/docs/grant-pipeline-procedures/proposal-process/README"
                     >
                       Grant Proposal Process
                     </a>
