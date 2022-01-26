@@ -235,7 +235,7 @@ export default function Home() {
               </div>
               <div className="row">
                 <div className="blog-thumb col col--4">
-                  <h3>MolochDAO Blog</h3>
+                  <h4>MolochDAO Blog</h4>
                   <div className="description">
                     From the summoning of the DAO, the first of its kind,
                     through cycles of grants, to the slaying of Moloch. Let's
@@ -252,7 +252,7 @@ export default function Home() {
                 </div>
 
                 <div className="blog-thumb col col--4">
-                  <h3>Ethereum Cat Herders</h3>
+                  <h4>Ethereum Cat Herders</h4>
                   <div className="description">
                     Decentralized project management contributions to the growth
                     and development of the Ethereum ecosystem.
@@ -271,7 +271,7 @@ export default function Home() {
                 </div>
 
                 <div className="blog-thumb col col--4">
-                  <h3>Death Guild</h3>
+                  <h4>Death Guild</h4>
                   <div className="description">
                     Questioning the models we take for granted regarding
                     governance, treasury management and privacy.
