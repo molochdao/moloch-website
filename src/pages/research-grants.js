@@ -86,7 +86,7 @@ export default function Home() {
             <div className="container moloch-padding-xl">
               <div className="row">
                 <div className="col">
-                  <h2 className="centered moloch-margin--md">
+                  <h2 className="centered moloch-margin--lg">
                     How to Get Funding
                   </h2>
                   <ol className="list-big">
@@ -106,7 +106,7 @@ export default function Home() {
                       grant.
                     </li>
                   </ol>
-                  <h4 className="centered moloch-margin--md">
+                  <h4 className="centered moloch-margin--sm">
                     Interested? Find out more!
                   </h4>
                   <p className="centered moloch-margin--md">

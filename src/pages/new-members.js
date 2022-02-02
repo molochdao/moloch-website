@@ -121,7 +121,7 @@ export default function Home() {
                   </p>
                   <p>
                     In incentivizing coordination with grant funding, the DAO
-                    will slay the demon.z
+                    will slay the demon.
                   </p>
                 </div>
                 <div className="ctas">
@@ -210,7 +210,9 @@ export default function Home() {
                       <div className="content">
                         <p>Get DAO membership via a grant from MolochDAO</p>
                         <p>
-                          <a href="">How to submit a funding proposal</a>
+                          <a href="/project-grants">
+                            How to submit a funding proposal
+                          </a>
                         </p>
                       </div>
                     </div>
@@ -257,7 +259,7 @@ export default function Home() {
             <div className="row">
               <div className="col">
                 <h2 className="centered moloch-margin--lg">
-                  How to get started
+                  How To Get Started
                 </h2>
                 <ol className="list-big">
                   <li>

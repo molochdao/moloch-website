@@ -90,8 +90,10 @@ export default function Home() {
                     </a>
                   </div>
                 </div>
-                <div className="img col col--5 contain-img">
-                  <img src="img/content/moloch1.png" alt="" />
+                <div className="img col col--5">
+                  <div className="contain-img">
+                    <img src="img/content/moloch1.png" alt="" />
+                  </div>
                 </div>
               </div>
             </div>

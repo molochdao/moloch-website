@@ -62,11 +62,11 @@ const config = {
             position: "right",
           },
           { to: "/new-members", label: "New Members", position: "right" },
-          {
-            to: "/annual-report",
-            label: "2021 Annual Report",
-            position: "right",
-          },
+          // {
+          //   to: "/annual-report",
+          //   label: "2021 Annual Report",
+          //   position: "right",
+          // },
           {
             href: "https://discord.com/invite/PxrnEUsbef",
             label: "Discord",
@@ -112,6 +112,10 @@ const config = {
               {
                 to: "/annual-report",
                 label: "2021 Annual Report",
+              },
+              {
+                href: "https://www.figma.com/proto/CJHdncK5bjkWSE4JYGFzzE/MolochDAO-Design-Guide?embed_host=share&kind=&node-id=704%3A116&page-id=0%3A1&scaling=min-zoom",
+                label: "Style Guide",
               },
             ],
           },

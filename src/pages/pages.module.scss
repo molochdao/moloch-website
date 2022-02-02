@@ -54,8 +54,15 @@
         object-position: top center;
       }
       @include breakpoint(small) {
-        margin-top: 50px;
+        margin-top: 2em;
+        margin-bottom: 2em;
         text-align: center;
+        width: auto;
+        height: auto;
+        img {
+          position: relative;
+          height: auto;
+        }
       }
     }
     .single-col {

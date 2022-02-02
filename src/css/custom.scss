@@ -30,6 +30,8 @@
   --ifm-h1-font-size: 112px;
   --ifm-h3-font-size: 64px;
   --ifm-h4-font-size: 34px;
+
+  --ifm-button-color: var(--white);
 }
 
 html,
@@ -223,7 +225,7 @@ input {
   border-radius: 4px;
 }
 
-@include breakpoint(mediumup) {
+@include breakpoint(smallup) {
   .nav-icon-discord,
   .nav-icon-twitter {
     width: 40px;
