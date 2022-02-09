@@ -35,7 +35,7 @@ export default function Home() {
                 <div className="text">
                   <p>
                     Help beat the tragedy of the commons, with collective action
-                    for the public good.z
+                    for the public good.
                   </p>
                 </div>
                 <div className="ctas">
@@ -81,7 +81,7 @@ export default function Home() {
                       of Moloch and display battle scars with pride, members
                       contribute their own capital to fund projects that further
                       the development of public goods in the Ethereum ecosystem.
-                      Copy
+                 
                     </p>
                   </div>
                   <div className="ctas">
