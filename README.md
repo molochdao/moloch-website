@@ -1,4 +1,4 @@
-# Website
+# MolochDAO Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.!!
 
@@ -31,3 +31,10 @@ $ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+### Editing and usage instructions
+Instructional videos:
+https://loom.com/share/folder/ae8657f0cdbe4688af62b2c29147e7ef
+
+Docusaurus Documentation:
+https://docusaurus.io/
