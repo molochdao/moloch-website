@@ -57,6 +57,10 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.navbar__title {
+  overflow: visible;
+  text-overflow: initial;
+}
 .centered {
   text-align: center;
 }
