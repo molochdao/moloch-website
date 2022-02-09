@@ -11,5 +11,3 @@ Each share represents a pro-rata claim on the underlying capital pool and can be
 There is no cap on the amount of shares that can be issued, and each share carries one vote.
 
 All new shares are issued at current exchange rate (.4895 ETH at the time of this writing) and new members may request a maximum of 100 shares when joining.
-
-#### &#x20;<a href="non-voting-shares" id="non-voting-shares"></a>

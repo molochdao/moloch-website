@@ -12,7 +12,7 @@ If your Bank Vault holds NFTs, there will be a gallery to view all your DAO's NF
 
 The Bank Vault only supports ERC-20 tokens, so if you are going to be receiving native tokens such as ETH, you will need to get senders to wrap the tokens before sending. RaidGuild built [an excellent tool](https://wrapeth.com) just for this purpose.
 
-### How Ownership Works <a href="how-ownership-works" id="how-ownership-works"></a>
+### How Ownership Works
 
 All members share direct ownership of the bank based on their Shares and/or Loot in relation to one another. Shares grant **voting power** as well as a claim to the Bank funds, whereas Loot only grants you rights to the funds in the Bank.
 
@@ -32,13 +32,13 @@ As Dani has no Shares, she has no voting power. If she wants to withdraw from th
 
 When members RageQuit or are Guild Kick-ed, this is how their Exit Amounts are calculated
 
-### Minion Vaults <a href="minion-vaults" id="minion-vaults"></a>
+### Minion Vaults
 
 Another way to hold funds is through Minions. Minions enable your DAO to call arbitrary contracts, enabling you to do many things such as manage ENS, collect NFTs, manage treasury in DeFi, etc. As Minions can also hold ERC-20 tokens, they are useful for holding funds that will eventually interact with smart contracts (e.g. Payroll, Superfluid, etc.)
 
 As the Minion balance is separate from the Bank's balance, the Exit Amount during RageQuits do not take into account Minion Balances. The DAO will need to calculate the Member's fair share of the Bank + Minion Balances to ensure accuracy in Exit Amounts.
 
-### Common Bank Use Cases <a href="common-bank-use-cases" id="common-bank-use-cases"></a>
+### Common Bank Use Cases
 
 **Adding & Whitelisting ERC-20 Tokens**
 

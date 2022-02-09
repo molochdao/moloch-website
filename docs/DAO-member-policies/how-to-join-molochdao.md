@@ -11,7 +11,7 @@ You can join MolochDAO through several means:
 2. Share your proposal here & request sponsorship:\
    [Visit the MolochDAO Discourse forum](https://forum.daohaus.club/c/moloch-rises)
 3. Get DAO membership via a grant from MolochDAO:\
-   [How to submit a funding proposal](/docs/grant-pipeline-procedures/how-and-when-to-put-a-proposal-on-chain/application.md)
+   [How to submit a funding proposal](/docs/reallyboringguild-member-policies/contributing-to-rbg/roles)
 4. Get involved and do work for the DAO to earn your way in:
 
    [Contact a member of the ReallyBoringGuild to discuss what you can offer](/docs/reallyboringguild-member-policies/contributing-to-rbg/)

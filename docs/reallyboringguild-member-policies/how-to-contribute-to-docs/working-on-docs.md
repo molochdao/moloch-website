@@ -24,8 +24,8 @@ For you to contribute to MolochDAO docs, these are the steps:
 >
 > **Issue** "Can a DAO member request loot?"
 >
-> * **Where in the docs?**: `Pre-revamp FAQ section` under `Proposals` (i.e. You can click "[https://github.com/HausDAO/daohaus-website/blob/prod/docs/users/proposals-faq.mdx"](https://github.com/HausDAO/daohaus-website/blob/prod/docs/users/proposals-faq.mdx%22) to access the file directly)
-> * **What help is needed?**: Based on the prompt `Yes, under your funding proposal, you can add a field "Loot Requested" to request loot`, create an `answer with screenshots` on requesting loot
+> - **Where in the docs?**: `Pre-revamp FAQ section` under `Proposals` (i.e. You can click "[https://github.com/HausDAO/daohaus-website/blob/prod/docs/users/proposals-faq.mdx"](https://github.com/HausDAO/daohaus-website/blob/prod/docs/users/proposals-faq.mdx%22) to access the file directly)
+> - **What help is needed?**: Based on the prompt `Yes, under your funding proposal, you can add a field "Loot Requested" to request loot`, create an `answer with screenshots` on requesting loot
 
 **3. Fork the **[**daohaus-website repo**](https://github.com/HausDAO/daohaus-website)
 
@@ -39,13 +39,11 @@ For you to contribute to MolochDAO docs, these are the steps:
 
 **7. Submit a Pull Request to HausDAO's daohaus-website repository**
 
-**8. Reviewers / moderators will review the changes, ensuring that answers are (1) accurate (2) adhering to our **[**style guide**](https://hackmd.io/vI1\_pmTJTmy2\_u0U7ZYQbA?both#43-Style-Guide)** (below)**
+**8. Reviewers / moderators will review the changes, ensuring that answers are (1) accurate (2) adhering to our **[**style guide**](https://hackmd.io/vI1_pmTJTmy2_u0U7ZYQbA?both#43-Style-Guide)** (below)**
 
 **9. Once both criteria are passed, your changes will be approved, merged a**
 
-
-
-### Working with HackMD <a href="working-with-hackmd" id="working-with-hackmd"></a>
+### Working with HackMD
 
 In order to contribute to Moloch docs, you will need to be able to write with Markdown syntax. It's extremely easy to learn. Use this [cheat sheet](https://www.markdownguide.org/cheat-sheet/) to get started.If you have no experience cloning and working on a repository, you can make your edits or additions in [HackMD](https://hackmd.io) and then create an issue in GitHub that contains the Markdown copy. Just create a profile on Discord, and that can be linked to create a HackMD account.Here's how to contribute using issues:
 
@@ -55,7 +53,7 @@ In order to contribute to Moloch docs, you will need to be able to write with Ma
 
 2\. Title your proposed changes - Make it clear what you are editing or adding.3. Paste the changes directly from your HackMD into the 'Write' section.4. Click 'Submit new issue'.![](https://i.imgur.com/fbvUX1t.jpeg)
 
-### Editing through the documentation UI <a href="editing-through-the-documentation-ui" id="editing-through-the-documentation-ui"></a>
+### Editing through the documentation UI
 
 Another simple way to contribute is through the built in 'Edit on GitHub' button that you will see on all pages of Moloch docs. For this, you won't need to use HackMD at all, just make sure to have a GitHub account.
 

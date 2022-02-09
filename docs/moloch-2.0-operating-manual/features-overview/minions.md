@@ -6,7 +6,7 @@ Minions enable our DAO to make calls and interact with external smart contracts,
 
 This opens up possibilities for DAOs to access any smart contracts out there, from providing liquidity positions, doing swaps or even purchasing NFTs.
 
-### Minion Types <a href="minion-types" id="minion-types"></a>
+### Minion Types
 
 **Basic Minion**
 

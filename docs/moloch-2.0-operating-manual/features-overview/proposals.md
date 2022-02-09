@@ -2,36 +2,34 @@
 
 Proposals can be used for all types of decision-making in the DAO. Add/remove members, allocate Shares and Loot, distribute funds, and even interact with other applications and communities.
 
-#### Standard Proposal Types <a href="standard-proposal-types" id="standard-proposal-types"></a>
+#### Standard Proposal Types
 
 These are the standard proposal types used within the governance in most DAOs.
 
-* **Membership** - Tributing capital and Requesting new shares to join the DAO
-* **Funding** - Tributing Spoils or Requesting funds from the DAO to work on internal projects and improvements
-* **Token** - Request to add support for a new ERC20 token
-* **Trade** - Request the DAO to swap one asset for another within the War Chest
-* **GuildKick** - Request to forcibly remove a malicious member through a vote
-* **Minion** - A contract that allows execution of arbitrary calls i.e swapping assets in the DAO bank
+- **Membership** - Tributing capital and Requesting new shares to join the DAO
+- **Funding** - Tributing Spoils or Requesting funds from the DAO to work on internal projects and improvements
+- **Token** - Request to add support for a new ERC20 token
+- **Trade** - Request the DAO to swap one asset for another within the War Chest
+- **GuildKick** - Request to forcibly remove a malicious member through a vote
+- **Minion** - A contract that allows execution of arbitrary calls i.e swapping assets in the DAO bank
 
 With additional Minions and Boosts, there will be more proposal types available for your DAO (e.g. "Superfluid" for Superfluid Minion, etc.)
 
-#### Proposal Playlists <a href="proposal-playlists" id="proposal-playlists"></a>
+#### Proposal Playlists
 
 Proposal playlists are custom folders for you to group relevant proposals together, minimizing the information overload for DAO members when submitting proposals.
 
 More specifically, Proposal Playlists enable DAOs to:
 
-* **Group proposals together in a playlist** to streamline for a specific persona (e.g. "New Joiners") or use case (e.g. "DeFi/NFTs")
-* **Edit proposal titles and description** to optimize the language used for your DAO members' persona
+- **Group proposals together in a playlist** to streamline for a specific persona (e.g. "New Joiners") or use case (e.g. "DeFi/NFTs")
+- **Edit proposal titles and description** to optimize the language used for your DAO members' persona
 
 The default proposal playlists are:
 
 1. **Favorites**: Commonly used proposals to help you kickstart your DAO's favorite proposals
 2. **The Classics**: Classic proposal types if you are more familiar with the previous Proposals flow
 
-
-
-#### Proposal Process <a href="proposal-process" id="proposal-process"></a>
+#### Proposal Process
 
 To submit a proposal, navigate to [MolochDAO ](https://app.daohaus.club/dao/0x1/0x519f9662798c2e07fbd5b30c1445602320c5cf5b)and select “View Proposals” followed by New Proposal.
 
@@ -43,16 +41,16 @@ Select the Proposal Type (described above) and fill in the relevant information.
 
 Here are some of the things you’ll want to keep in mind when filling out a proposal.
 
-* **TITLE:** Enter a description of the proposal. Example: New Member - Jane Doe
-* **DESCRIPTION:** Anything you believe is relevant to your proposal. The shorter the description the better, and the important piece here is the _WHAT_ you are asking for and _WHY_.
-* **LINK:** Whatever information gives us the best context to review your proposal and make an informed decision.
-* **APPLICANT** With respect to funding proposals, this is the recipient or sender address you would like to have funds sent to or from.
-* **PAYMENT REQUESTED:** The number of Shares or amount of payment requested. Payment can be requested in any token held by the DAO, or in shares and loot.
-* **+REQUEST SHARES:** Voting shares in the DAO. If it is a funding proposal, Members can request payment be made in shares up to x% of the total amount requested.
-* **+REQUEST LOOT:** Non-voting shares in the DAO. This means you will have shares which can be raqequit but do not hold voting rights. Loot shares cost the same as regular shares.
-* **GIVE TRIBUTE:** The amount of capital you are committing to deposit to the DAO bank. (Tribute is relevant to Membership and Funding Proposals).
+- **TITLE:** Enter a description of the proposal. Example: New Member - Jane Doe
+- **DESCRIPTION:** Anything you believe is relevant to your proposal. The shorter the description the better, and the important piece here is the _WHAT_ you are asking for and _WHY_.
+- **LINK:** Whatever information gives us the best context to review your proposal and make an informed decision.
+- **APPLICANT** With respect to funding proposals, this is the recipient or sender address you would like to have funds sent to or from.
+- **PAYMENT REQUESTED:** The number of Shares or amount of payment requested. Payment can be requested in any token held by the DAO, or in shares and loot.
+- **+REQUEST SHARES:** Voting shares in the DAO. If it is a funding proposal, Members can request payment be made in shares up to x% of the total amount requested.
+- **+REQUEST LOOT:** Non-voting shares in the DAO. This means you will have shares which can be raqequit but do not hold voting rights. Loot shares cost the same as regular shares.
+- **GIVE TRIBUTE:** The amount of capital you are committing to deposit to the DAO bank. (Tribute is relevant to Membership and Funding Proposals).
 
-#### Stages of a Proposal <a href="stages-of-a-proposal" id="stages-of-a-proposal"></a>
+#### Stages of a Proposal
 
 **1. Submit Proposal**
 
