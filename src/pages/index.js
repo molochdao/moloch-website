@@ -71,7 +71,7 @@ export default function Home() {
                   <div className="text">
                     <p>
                       The future of humanity requires the sacrifice of your
-                      shallow desires, but it’s reward is the head of Moloch
+                      shallow desires, but its reward is the head of Moloch
                       himself.
                     </p>
                     <p>
