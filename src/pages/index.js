@@ -215,6 +215,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="ctas">
+                  hrdf="https://molochdao.com/annual-report/"
                   <a className="button moloch-button button--primary" href="#">
                     View Annual Report
                   </a>
