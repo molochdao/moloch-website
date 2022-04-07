@@ -234,6 +234,16 @@
           object-fit: cover;
         }
       }
+      .post {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+          font-size: 1em;
+          margin-bottom: 1.2em;
+        }
+      }
       .post a {
         color: var(--white);
         line-height: 1;

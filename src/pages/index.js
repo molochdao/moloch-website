@@ -6,6 +6,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./pages.module.scss";
 import Section from "../components/Section";
 import Blog from "../components/Blog";
+import MirrorBlog from "../components/MirrorBlog";
 import Head from "@docusaurus/Head";
 import Newsletter from "../components/Newsletter";
 
@@ -215,8 +216,10 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="ctas">
-                
-                  <a className="button moloch-button button--primary" href="https://molochdao.com/annual-report/">
+                  <a
+                    className="button moloch-button button--primary"
+                    href="https://molochdao.com/annual-report/"
+                  >
                     View Annual Report
                   </a>
                 </div>
@@ -280,11 +283,18 @@ export default function Home() {
                     governance, treasury management and privacy.
                   </div>
                   <div className="post">
-                    <Blog account="@traviswyche" limit={1} />
+                    {/* <Blog account="@traviswyche" limit={1} />{" "} */}
+                    <MirrorBlog
+                      account="0x2619c649d98DDdDBB0B218823354FE1D41bF5Ce0"
+                      limit={1}
+                    />
                   </div>
                   <div className="read-all">
-                    <a href="https://medium.com/@traviswyche" target="_blank">
-                      https://medium.com/@traviswyche
+                    <a
+                      href="https://mirror.xyz/traviswyche.eth"
+                      target="_blank"
+                    >
+                      https://mirror.xyz/traviswyche.eth
                     </a>
                   </div>
                 </div>
