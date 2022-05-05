@@ -15,22 +15,24 @@ export default function MediumFeed({
       );
       const json = await res.json();
       setData(json.items);
+      console.log(json);
     };
     fetchData();
   }, [setData]);
 
   return (
     <ul>
-      {data.slice(0, limit).map((item, i) => (
-        <li key={item.title}>
-          <a target="_blank" href={item.link}>
-            <div className="img">
-              <img src={item.thumbnail} />
-            </div>
-            <span>{item.title}</span>
-          </a>
-        </li>
-      ))}
+      {data &&
+        data.slice(0, limit).map((item, i) => (
+          <li key={item.title}>
+            <a target="_blank" href={item.link}>
+              <div className="img">
+                <img src={item.thumbnail} />
+              </div>
+              <span>{item.title}</span>
+            </a>
+          </li>
+        ))}
     </ul>
   );
 }

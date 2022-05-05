@@ -248,7 +248,7 @@ export default function Home() {
                     get to work.
                   </div>
                   <div className="post">
-                    <Blog account="molochdao" limit={1} />
+                    {/* <Blog account="molochdao" limit={1} /> */}
                   </div>
                   <div className="read-all">
                     <a href="https://molochdao.medium.com/" target="_blank">
@@ -264,7 +264,7 @@ export default function Home() {
                     and development of the Ethereum ecosystem.
                   </div>
                   <div className="post">
-                    <Blog account="ethereum-cat-herders" limit={1} />
+                    {/* <Blog account="ethereum-cat-herders" limit={1} /> */}
                   </div>
                   <div className="read-all">
                     <a
@@ -284,10 +284,10 @@ export default function Home() {
                   </div>
                   <div className="post">
                     {/* <Blog account="@traviswyche" limit={1} />{" "} */}
-                    <MirrorBlog
+                    {/* <MirrorBlog
                       account="0x2619c649d98DDdDBB0B218823354FE1D41bF5Ce0"
                       limit={1}
-                    />
+                    /> */}
                   </div>
                   <div className="read-all">
                     <a
